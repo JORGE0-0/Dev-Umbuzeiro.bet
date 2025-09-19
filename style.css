@@ -1,7 +1,7 @@
 body{
-background-color:#dfff9e;
-font-family: sans-serif;
-
+    background-color:#dfff9e;
+    font-family: sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -37,13 +37,19 @@ h2{
     margin-right: 45px;
 }
 
+ #preserv{
+    
+    padding: 0px 0px 0px 200px;
+    color: rgb(20, 86, 20);
+    font-style: bold;
+ }
 
 .barra{
     text-align: center;
     background-color: white;
     border: solid, 5px, white;
-    border-radius: 20px;
-    padding: 0px 0px 0px 0px;
+    border-radius: 0px;
+    padding: 0px 10px 0px 10px;
     
 }
 
@@ -64,8 +70,8 @@ h2{
 a{
     padding: 0px 10px 0px 10px;
     color: black;
-}
 
+}
 
 .container2{
     display: flex;
@@ -82,4 +88,27 @@ a{
 
 .p2{
     margin: 45px 0px 0px 45px;
+}
+
+hr{
+    border: 2px solid rgb(20, 86, 20);
+    margin: 50px 0px 20px 0px;
+}
+
+#comofunciona{
+    padding: 0px 0px 0px 250px;
+    color: rgb(20, 86, 20);
+    font-style: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 10px 0; 
+    margin-top: 50px;
+}
+
+.container3{
+    align-items: center;
+    text-align: center;
 }
